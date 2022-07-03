@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    vertical-align: baseline;
+    font-family: 'Josefin Slab', serif;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+
+.side{
+    display:flex;
+    background: url(media/leaves.jpeg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:25vw;
+    justify-content: center;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.image-description{
+    margin-top:auto;
+    margin-bottom:10px;
+    color:white;;
+    font-weight: bold;
+}
+
+.overlay{
+    position:absolute;
+    left:250px;
+    top:300px;
+    width:200px;
+    height:auto;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+.form-inputs{
+    display:flex;
+    gap:40px;
+}
+
+.firstColumnForms, .secondColumnForms{
+    display:flex;
+    flex-direction:column;
+    width:fit-content;
+}
+
+.acc{
+    margin-top: 100px;
+}
+
