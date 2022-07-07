@@ -7,6 +7,9 @@ Showcasing intermediate HTML and CSS concepts:
   
   3.) Pseudoclasses
   
+  
+  
+  
 The concepts applied in this project will eventually be applied to my personal website 
 as I plan to implement an automated emailing system to whoever wants to sign-up.
 
