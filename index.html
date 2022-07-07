@@ -5,52 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Slab:wght@200;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
     <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Open+Sans&display=swap" rel="stylesheet">
+
+    
     
 </head>
 <body>
     <div class="side">
-        <div class="image-description">Photo by somebody</div>
+        <div class="image-description">Photo by somebody  |  Made by: <a href="https://github.com/Kankenny">Kennette Basco</a> </div>
     </div>
 
     
     <div class="form">
         <div class="text">
-            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
-            <br><br>You know you want to.</br></br>
+            <h4>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h4>
+            <h4>You <em>know</em> you want to.</h4>
+            <br>
+            <h4>Let's do this!</h4>
         </div>
-        
-        <h3>Let's do this!</h3>
 
         
         <form action="" class="form-inputs">
             <div class="firstColumnForms">
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" placeholder="John">
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" placeholder="johndoe@gmail.com">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password">
+                <div>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" placeholder="John">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" placeholder="johndoe@gmail.com">
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" placeholder="********">
+                </div>
             </div>
         
             <div class="secondColumnForms">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" placeholder="Doe">
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="number" id="phone-number" placeholder="(XXX) XXX-XXXX">
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm-password">
+                <div>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" placeholder="Doe">
+                </div>
+                <div>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="number" id="phone-number" placeholder="(XXX) XXX-XXXX">
+                </div>
+                <div>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" placeholder="********">
+                </div>
             </div>
         </form>
        
 
         <div class="acc">
-            <button>Create Account</button>
+            <button class="createAcc">Create Account</button>
             <h5>Already have an account? <a href="">Log in</a></h5>
         </div>
     </div>
