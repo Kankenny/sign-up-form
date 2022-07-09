@@ -34,30 +34,30 @@
             <div class="firstColumnForms">
                 <div>
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" placeholder="John">
+                    <input type="text" id="first-name" placeholder="John" required>
                 </div>
                 <div>
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email" placeholder="johndoe@gmail.com">
+                    <input type="email" id="email" placeholder="johndoe@gmail.com" required>
                 </div>
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" placeholder="********">
+                    <input type="password" id="password" placeholder="********" required minlength="8">
                 </div>
             </div>
         
             <div class="secondColumnForms">
                 <div>
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" placeholder="Doe">
+                    <input type="text" id="last-name" placeholder="Doe" required>
                 </div>
                 <div>
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input type="number" id="phone-number" placeholder="(XXX) XXX-XXXX">
+                    <input type="number" id="phone-number" placeholder="(XXX) XXX-XXXX" required min="10" max="11">
                 </div>
                 <div>
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password" placeholder="********">
+                    <input type="password" id="confirm-password" placeholder="********" required minlength="8">
                 </div>
             </div>
         </form>
